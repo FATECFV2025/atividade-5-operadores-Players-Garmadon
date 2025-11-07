@@ -29,7 +29,7 @@ public class Operadores
         return v1%v2;
     }
     
-    // Operadores Atribuição
+    // Operadores de Atribuição
 
     public float atrbAdicao(float v1, float v2)
     {
