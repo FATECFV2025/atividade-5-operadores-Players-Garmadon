@@ -64,19 +64,19 @@ public class Calculadora
                 break;
             // Operadores de Atribuição
             case 6:
-                String texto6 = MessageFormat.format("X += Y:\n{0} = {0} + {1} = {2}", n1, n2, op.atrbAdicao(n1, n2));
+                String texto6 = MessageFormat.format("X += Y:\nX = {0} + {1} = {2}\nX = {2}", n1, n2, op.atrbAdicao(n1, n2));
                 System.out.println(texto6);
                 break;
             case 7:
-                String texto7 = MessageFormat.format("X -= Y:\n{0} = {0} - {1} = {2}", n1, n2, op.atrbSubtracao(n1, n2));
+                String texto7 = MessageFormat.format("X += Y:\nX = {0} - {1} = {2}\nX = {2}", n1, n2, op.atrbSubtracao(n1, n2));
                 System.out.println(texto7);
                 break;
             case 8:
-                String texto8 = MessageFormat.format("X *= Y:\n{0} = {0} * {1} = {2}", n1, n2, op.atrbMultiplicacao(n1, n2));
+                String texto8 = MessageFormat.format("X *= Y:\nX = {0} * {1} = {2}\nX = {2}", n1, n2, op.atrbMultiplicacao(n1, n2));
                 System.out.println(texto8);
                 break;
             case 9:
-                String texto9 = MessageFormat.format("X /= Y:\n{0} = {0} / {1} = {2}", n1, n2, op.atrbDivisao(n1, n2));
+                String texto9 = MessageFormat.format("X /= Y:\nX = {0} / {1} = {2}\nX = {2}", n1, n2, op.atrbDivisao(n1, n2));
                 System.out.println(texto9);
                 break;
             case 10:

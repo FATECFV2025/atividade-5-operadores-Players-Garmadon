@@ -33,27 +33,32 @@ public class Operadores
 
     public float atrbAdicao(float v1, float v2)
     {
-        return v1+=v2;
+        v1+=v2;
+        return v1;
     }
 
     public float atrbSubtracao(float v1, float v2)
     {
-        return v1-=v2;
+        v1-=v2;
+        return v1;
     }
 
     public float atrbMultiplicacao(float v1, float v2)
     {
-        return v1*=v2;
+        v1*=v2;
+        return v1;
     }
 
     public float atrbDivisao(float v1, float v2)
     {
-        return v1/=v2;
+        v1/=v2;
+        return v1;
     }
 
     public float atrbSimples(float v1, float v2)
     {
-        return v1=v2;
+        v1=v2;
+        return v1;
     }
 
     // Operadores de Comparação
