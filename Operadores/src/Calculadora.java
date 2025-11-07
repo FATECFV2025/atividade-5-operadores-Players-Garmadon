@@ -39,6 +39,8 @@ public class Calculadora
         op.v1 = n1;
         op.v2 = n2;
 
+        System.out.println("\nSegnudo a operação escolhida, um cálculo será feito\ncom os dois números, com o resultado aparecendo logo em seguida:\n");
+
         switch (operador)
         {
             // Operadores Aritméticos
